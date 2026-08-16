@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/shiftsync_scheduling
-    username: postgres
+    username: my_postgres
     password: postgres
   jpa:
     hibernate:
