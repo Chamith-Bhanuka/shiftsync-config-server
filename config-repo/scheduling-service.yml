@@ -2,9 +2,9 @@ server:
   port: 8081
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/shiftsync_scheduling
-    username: my_postgres
-    password: postgres
+    url: ${DB_URL:jdbc:postgresql://10.55.96.2:5432/shiftsync_scheduling}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:ShiftSync@2026!}
   jpa:
     hibernate:
       ddl-auto: update

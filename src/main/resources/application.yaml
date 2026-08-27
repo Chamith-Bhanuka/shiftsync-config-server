@@ -9,4 +9,4 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///C:/Users/User/Documents/IJSE/ECA/ShiftSync/config-server/config-repo
+          search-locations: file:/opt/shiftsync/config-repo,file:./config-repo,file:./shiftsync-platform/config-server/config-repo,classpath:/config-repo
