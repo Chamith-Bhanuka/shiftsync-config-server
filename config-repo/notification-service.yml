@@ -3,4 +3,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://cbhanukawp2002_db_user:SBLABJGXoRp6OIMA@shiftsync-notification.9pknogf.mongodb.net/shiftsync_notifications?retryWrites=true&w=majority&appName=shiftsync-notification
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/shiftsync_notifications}
